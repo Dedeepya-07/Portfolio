@@ -15,7 +15,7 @@ I enjoy building at the intersection of AI, design, and creativity — turning i
 
 ## 🚀 Live Website
 
-🔗 https://your-portfolio.vercel.app
+🔗 https://dedeepyayakkala-portfolio.vercel.app
 
 ---
 
