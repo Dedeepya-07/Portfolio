@@ -8,7 +8,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Main Stylesheet -->
@@ -24,6 +24,7 @@
                 <a href="#hero" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#projects" class="nav-link">Projects</a>
+                <a href="#designs" class="nav-link">My Designs</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#achievements-certs" class="nav-link">Achievements</a>
                 <a href="#volunteering" class="nav-link">Volunteering</a>
@@ -46,7 +47,7 @@
             <div class="hero-image-side reveal">
                 <div class="image-wrapper">
                     <div class="profile-frame">
-                        <img src="profile.png" alt="Dedeepya Yakkala" class="profile-img">
+                        <img src="assets/profile.png" alt="Dedeepya Yakkala" class="profile-img">
                     </div>
                     <div class="badge-floating">
                         <div class="badge-icon"><i class="fa-solid fa-star"></i></div>
@@ -288,6 +289,114 @@
         </div>
     </section>
 
+    <!-- My Designs Section -->
+    <section id="designs" class="designs-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Creative Work</span>
+                <h2 class="section-title">My Designs</h2>
+            </div>
+        </div>
+
+        <!-- Full-width string gallery -->
+        <div class="string-gallery-wrap">
+
+            <!-- SVG Rope — catenary sag across full width -->
+            <svg class="string-rope" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+                <!-- Rope texture: two thin lines for a twisted-twine look -->
+                <path d="M0,30 Q200,95 500,75 Q800,55 1200,50" fill="none" stroke="#c9a06a" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                <path d="M0,32 Q200,98 500,78 Q800,58 1200,53" fill="none" stroke="#a07840" stroke-width="1.5" stroke-linecap="round" opacity="0.6" stroke-dasharray="4 6"/>
+            </svg>
+
+            <!-- Polaroids — absolutely positioned, clothespin top = rope y at that x -->
+            <div class="polaroid-row">
+
+                <!-- P1: left=12% -->
+                <div class="polaroid-hanger" style="left:12%; top:48px; --rot:-6deg; --sway-dir:1; --delay:0s;">
+                    <div class="clothespin"><svg viewBox="0 0 24 40" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="0" width="8" height="26" rx="3" fill="#d4a96a"/><rect x="10" y="6" width="4" height="14" rx="2" fill="#c8893c"/><rect x="6" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><rect x="13" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><ellipse cx="12" cy="25" rx="3.5" ry="2.5" fill="#b5742a"/></svg></div>
+                    <div class="polaroid theme-gold" onclick="this.classList.toggle('flipped')">
+                        <div class="polaroid-inner">
+                            <div class="polaroid-front">
+                                <div class="polaroid-img"><img src="designs portfolio/design (1).jpg" alt="Poster Designing"></div>
+                                <div class="polaroid-caption">Poster Designing</div>
+                            </div>
+                            <div class="polaroid-back">
+                                <h4>Debate Competition</h4>
+                                <p>Conceptual illustration and promotion of a debate competition.</p>
+                                <p><strong>Focus:</strong> Conceptual illustration, Digital Design, Color Theory, Visual Storytelling.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- P2: left=35% -->
+                <div class="polaroid-hanger" style="left:35%; top:48px; --rot:4deg; --sway-dir:-1; --delay:0.3s;">
+                    <div class="clothespin"><svg viewBox="0 0 24 40" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="0" width="8" height="26" rx="3" fill="#d4a96a"/><rect x="10" y="6" width="4" height="14" rx="2" fill="#c8893c"/><rect x="6" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><rect x="13" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><ellipse cx="12" cy="25" rx="3.5" ry="2.5" fill="#b5742a"/></svg></div>
+                    <div class="polaroid theme-teal" onclick="this.classList.toggle('flipped')">
+                        <div class="polaroid-inner">
+                            <div class="polaroid-front">
+                                <div class="polaroid-img"><img src="designs portfolio/design (2).jpg" alt="Tech Talk Poster"></div>
+                                <div class="polaroid-caption">Tech Talk Poster</div>
+                            </div>
+                            <div class="polaroid-back">
+                                <h4>CSE Tech Event</h4>
+                                <p>Promotional poster design for a college technical talk event hosted by the CSE Department.</p>
+                                <p><strong>Focus:</strong> Event Promotion, Typography Hierarchy, Digital Illustration, Visual Communication.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- P3: left=58% -->
+                <div class="polaroid-hanger" style="left:58%; top:37px; --rot:-3deg; --sway-dir:1; --delay:0.6s;">
+                    <div class="clothespin"><svg viewBox="0 0 24 40" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="0" width="8" height="26" rx="3" fill="#d4a96a"/><rect x="10" y="6" width="4" height="14" rx="2" fill="#c8893c"/><rect x="6" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><rect x="13" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><ellipse cx="12" cy="25" rx="3.5" ry="2.5" fill="#b5742a"/></svg></div>
+                    <div class="polaroid theme-purple" onclick="this.classList.toggle('flipped')">
+                        <div class="polaroid-inner">
+                            <div class="polaroid-front">
+                                <div class="polaroid-img"><img src="designs portfolio/design (3).jpg" alt="Onam Festival"></div>
+                                <div class="polaroid-caption">Onam Festival</div>
+                            </div>
+                            <div class="polaroid-back">
+                                <h4>College Life & Onam</h4>
+                                <p>A richly detailed digital collage/poster celebrating college life and the festival of Onam.</p>
+                                <p><strong>Focus:</strong> Visual Narrative, Mixed Media/Collage, Hand-Drawn Illustration, Layout and Composition.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- P4: left=81% -->
+                <div class="polaroid-hanger" style="left:81%; top:29px; --rot:7deg; --sway-dir:-1; --delay:0.15s;">
+                    <div class="clothespin"><svg viewBox="0 0 24 40" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="0" width="8" height="26" rx="3" fill="#d4a96a"/><rect x="10" y="6" width="4" height="14" rx="2" fill="#c8893c"/><rect x="6" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><rect x="13" y="24" width="5" height="16" rx="2.5" fill="#d4a96a"/><ellipse cx="12" cy="25" rx="3.5" ry="2.5" fill="#b5742a"/></svg></div>
+                    <div class="polaroid theme-rose" onclick="this.classList.toggle('flipped')">
+                        <div class="polaroid-inner">
+                            <div class="polaroid-front">
+                                <div class="polaroid-img"><img src="designs portfolio/design (4).jpg" alt="Zomato Redesign"></div>
+                                <div class="polaroid-caption">Zomato Redesign</div>
+                            </div>
+                            <div class="polaroid-back">
+                                <h4>Zomato Logo</h4>
+                                <p>Conceptual brand logo re-design for Zomato to enhance its identity as a comprehensive food platform.</p>
+                                <p><strong>Focus:</strong> Brand Identity, Typography, Iconography, Digital Design.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end polaroid-row -->
+
+            <p class="polaroid-instruction"><i class="fa-solid fa-hand-pointer"></i> Click on any image to view details</p>
+        </div><!-- end string-gallery-wrap -->
+
+        <div class="container">
+            <div class="designs-cta">
+                <a href="https://www.instagram.com/your.artiste/" target="_blank" class="btn btn-secondary">
+                    View More on Instagram <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Experience Section (Vertical Timeline) -->
     <section id="experience" class="experience-section reveal">
         <div class="container">
@@ -399,19 +508,19 @@
                     <div class="book-gallery-container">
                         <div class="book-stack" id="threxBook">
                             <div class="book-page page-1 active">
-                                <img src="1770048250840.jpg" alt="Threx Hackathon - Presentation Pitch">
+                                <img src="threx/1770048250840.jpg" alt="Threx Hackathon - Presentation Pitch">
                             </div>
                             <div class="book-page page-2">
-                                <img src="1770048252123.jpg" alt="Threx Hackathon - Embedded System Testing">
+                                <img src="threx/1770048252123.jpg" alt="Threx Hackathon - Embedded System Testing">
                             </div>
                             <div class="book-page page-3">
-                                <img src="1770048252888.jpg" alt="Threx Hackathon - Award Ceremony">
+                                <img src="threx/1770048252888.jpg" alt="Threx Hackathon - Award Ceremony">
                             </div>
                             <div class="book-page page-4">
-                                <img src="1770048254588.jpg" alt="Threx Hackathon - Prototype Demonstration">
+                                <img src="threx/1770048254588.jpg" alt="Threx Hackathon - Prototype Demonstration">
                             </div>
                             <div class="book-page page-5">
-                                <img src="1770048255660.jpg" alt="Threx Hackathon - Winning Team Portrait">
+                                <img src="threx/1770048255660.jpg" alt="Threx Hackathon - Winning Team Portrait">
                             </div>
                         </div>
                         <div class="book-controls">
@@ -531,6 +640,7 @@
                             <span class="edu-year">2024 - 2028</span>
                         </div>
                         <p class="edu-degree">B.Tech Computer Science Engineering</p>
+                        <p class="edu-grade">CGPA: 7.94</p>
                         <div class="edu-extra-desc">
                             <span class="student-badge"><i class="fa-solid fa-laptop-code"></i> CSE Student</span>
                             <p>Building at the intersection of AI, design, and creative technology — blending intelligent systems with intuitive user experiences.</p>
