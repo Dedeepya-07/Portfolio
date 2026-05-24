@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Dedeepya Yakkala - UI/UX Designer, AI Researcher, and Computer Science Engineering Student.">
+    <title>Dedeepya Yakkala | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain-overlay"></div>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">DY<span>.</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#achievements-certs" class="nav-link">Achievements</a>
+                <a href="#volunteering" class="nav-link">Volunteering</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-right">
+                <a href="#contact" class="btn btn-connect">Let's Connect <i class="fa-solid fa-sparkles"></i></a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-image-side reveal">
+                <div class="image-wrapper">
+                    <div class="profile-frame">
+                        <img src="assets/profile.png" alt="Dedeepya Yakkala" class="profile-img">
+                    </div>
+                    <div class="badge-floating">
+                        <div class="badge-icon"><i class="fa-solid fa-star"></i></div>
+                        <div class="badge-text">
+                            <strong>CSE</strong>
+                            <span>Undergraduate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-text-side reveal">
+                <span class="hello-tag">Hello! I'm <i class="fa-solid fa-sparkles accent-color"></i></span>
+                <h1 class="hero-name">Dedeepya Yakkala</h1>
+                <h2 class="hero-title">UI/UX Designer &bull; AI Researcher &bull; Creative Technologist</h2>
+                <p class="hero-tagline">Designing intuitive digital experiences powered by creativity and technology.</p>
+                <p class="hero-intro">CSE undergraduate student focused on building impactful digital solutions through AI, design, and creative thinking.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#skills-projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/dedeepyayakkala" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Dedeepya-07" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/dedeepya_yakkala/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:dedeepya.yakkala@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Banner -->
+    <section class="stats-section reveal">
+        <div class="container stats-container">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
+                <div class="stat-info">
+                    <h3>Hackathon Winner</h3>
+                    <p>National Level &bull; Threx, SRMIST</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-medal"></i></div>
+                <div class="stat-info">
+                    <h3>Top 60 Finalist</h3>
+                    <p>Naturals Beauty Tech Hackathon</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-brands fa-google"></i></div>
+                <div class="stat-info">
+                    <h3>Student Ambassador</h3>
+                    <p>Google &bull; 2026</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                <div class="stat-info">
+                    <h3>Creative Designer</h3>
+                    <p>UI/UX + Visual Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text-column">
+                    <p>I’m Dedeepya, a CSE student at Chennai Institute of Technology, a national-level hackathon winner, published researcher, and Research Associate.</p>
+                    <p>I’m deeply interested in building at the intersection of AI, design, and creative technology — blending intelligent systems with intuitive user experiences.</p>
+                    <p>Alongside this, I’m a UI/UX designer and digital artist, and I’ve built a growing creative presence with 1K+ followers.</p>
+                </div>
+                <div class="about-quotes-column">
+                    <div class="quote-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="quote-text">Bridging the gap between code and aesthetics to build technology that is not only functional but delightful to experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">My Capabilities</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            
+            <div class="skills-boxes-container">
+                <!-- Genre 1: Technical Skills -->
+                <div class="skill-genre-box">
+                    <div class="genre-info">
+                        <div class="genre-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    <div class="genre-marquee">
+                        <div class="marquee-track-left">
+                            <span class="skill-tag">Python (Basics)</span>
+                            <span class="skill-tag">Java (Beginner)</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">OOP (Basics)</span>
+                            <!-- Duplicate for infinite scroll -->
+                            <span class="skill-tag">Python (Basics)</span>
+                            <span class="skill-tag">Java (Beginner)</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">OOP (Basics)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Genre 2: Design & Tools -->
+                <div class="skill-genre-box">
+                    <div class="genre-info">
+                        <div class="genre-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                        <h3>Design &amp; Tools</h3>
+                    </div>
+                    <div class="genre-marquee">
+                        <div class="marquee-track-right">
+                            <span class="skill-tag tag-accent">Figma</span>
+                            <span class="skill-tag tag-accent">Canva</span>
+                            <span class="skill-tag tag-accent">Graphic Design</span>
+                            <span class="skill-tag tag-accent">UI/UX</span>
+                            <span class="skill-tag tag-accent">Git</span>
+                            <span class="skill-tag tag-accent">GitHub</span>
+                            <span class="skill-tag tag-accent">VS Code</span>
+                            <!-- Duplicate for infinite scroll -->
+                            <span class="skill-tag tag-accent">Figma</span>
+                            <span class="skill-tag tag-accent">Canva</span>
+                            <span class="skill-tag tag-accent">Graphic Design</span>
+                            <span class="skill-tag tag-accent">UI/UX</span>
+                            <span class="skill-tag tag-accent">Git</span>
+                            <span class="skill-tag tag-accent">GitHub</span>
+                            <span class="skill-tag tag-accent">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Genre 3: Soft Skills -->
+                <div class="skill-genre-box">
+                    <div class="genre-info">
+                        <div class="genre-icon"><i class="fa-solid fa-people-group"></i></div>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="genre-marquee">
+                        <div class="marquee-track-left">
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Public Speaking</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                            <span class="skill-tag">Team Management</span>
+                            <!-- Duplicate for infinite scroll -->
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Public Speaking</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                            <span class="skill-tag">Team Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <div>
+                            <span class="project-tag">AI Creative Automation</span>
+                            <h3 class="project-name">Prompt2Poster</h3>
+                        </div>
+                    </div>
+                    <p class="project-description">An AI-powered client-server application for automated poster generation. Combines advanced image preprocessing, generative AI models, and an interactive web canvas to allow real-time layout customization.</p>
+                    <div class="project-footer">
+                        <span class="project-tech">Python &bull; Generative AI &bull; Web Canvas</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon-box"><i class="fa-solid fa-calendar-check"></i></div>
+                        <div>
+                            <span class="project-tag">Database Management</span>
+                            <h3 class="project-name">Events Management System</h3>
+                        </div>
+                    </div>
+                    <p class="project-description">A robust Python and MySQL application designed to simplify events hosting. Manages participants, monitors attendance using QR codes, and aggregates and calculates results across multiple institutions seamlessly.</p>
+                    <div class="project-footer">
+                        <span class="project-tech">Python &bull; MySQL &bull; Event Management</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon-box"><i class="fa-solid fa-gamepad"></i></div>
+                        <div>
+                            <span class="project-tag">Embedded System</span>
+                            <h3 class="project-name">Tilt Goalie Game</h3>
+                        </div>
+                    </div>
+                    <p class="project-description">A motion-controlled embedded hardware game built using the lightweight scripting language mruby/c. Implements real-time sensor processing and hardware-software interaction to create an engaging goalie simulator.</p>
+                    <div class="project-footer">
+                        <span class="project-tech">mruby/c &bull; Microcontrollers &bull; Real-time Embedded</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Vertical Timeline) -->
+    <section id="experience" class="experience-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">My Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+            
+            <div class="vertical-timeline">
+                <!-- Exp Item 1: Google Student Ambassador -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-brands fa-google"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">2026 – Present</span>
+                        <h3 class="experience-role">Google Student Ambassador</h3>
+                        <h4 class="experience-org">Google · 2026</h4>
+                        <p class="experience-desc">Representing Google on campus by promoting Google technologies, tools, and developer programs, and organising student-facing events and workshops.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Item 2: AIBL Campus Ambassador -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-solid fa-flag"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">2026 – Present</span>
+                        <h3 class="experience-role">Campus Ambassador</h3>
+                        <h4 class="experience-org">AIBL</h4>
+                        <p class="experience-desc">Serving as an official campus ambassador for AIBL, driving outreach, engagement, and awareness initiatives among the student community.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Item 3: CAMRI (May 2025 – May 2026) -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-solid fa-user-tie"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">May 2025 – May 2026</span>
+                        <h3 class="experience-role">Research Associate Intern</h3>
+                        <h4 class="experience-org">CAMRI</h4>
+                        <p class="experience-desc">Worked on multidisciplinary research projects, managed deliverables, and led a team of 25 members to coordinate cross-functional contributions.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Item 4: Shaastra '26 (Nov 2025 – Jan 2026) -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-solid fa-bullhorn"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">Nov 2025 – Jan 2026</span>
+                        <h3 class="experience-role">Campus Ambassador</h3>
+                        <h4 class="experience-org">Shaastra '26 (IIT Madras)</h4>
+                        <p class="experience-desc">Led student-facing marketing and engagement initiatives on campus to promote technical workshops and main events.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Item 5: OnlyDevs (Oct – Nov 2025) -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">Oct – Nov 2025</span>
+                        <h3 class="experience-role">Web Developer &amp; UI/UX · Graphic Designer</h3>
+                        <h4 class="experience-org">OnlyDevs</h4>
+                        <p class="experience-desc">Built responsive user interfaces, streamlined workflows, and refined user experience flows for web applications.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Item 6: Microsoft AICTE (Jun – Jul 2025) -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-solid fa-robot"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">Jun – Jul 2025</span>
+                        <h3 class="experience-role">AICTE Internship</h3>
+                        <h4 class="experience-org">Microsoft</h4>
+                        <p class="experience-desc">Gained foundational knowledge in Artificial Intelligence principles and practical applications through hands-on guided projects.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Item 7: mruby/c IoT (May – Jun 2025) -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-node"><i class="fa-solid fa-microchip"></i></div>
+                    <div class="vertical-timeline-content">
+                        <span class="timeline-duration">May – Jun 2025</span>
+                        <h3 class="experience-role">IoT &amp; Embedded Systems Intern</h3>
+                        <h4 class="experience-org">mruby/c Project</h4>
+                        <p class="experience-desc">Built real-time embedded systems using lightweight scripting. Optimized memory usage and designed hardware integrations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section (Vibrant Horizontal Grid & Spotlight) -->
+    <section id="achievements" class="achievements-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Recognition</span>
+                <h2 class="section-title">Achievements</h2>
+            </div>
+            
+            <!-- Huge Spotlight Box (First Box) -->
+            <div class="achievement-spotlight-box card-gold">
+                <div class="spotlight-content">
+                    <div class="achievement-icon-box"><i class="fa-solid fa-trophy"></i></div>
+                    <h3 class="spotlight-title">Threx Hackathon &bull; 2nd Place (SRMIST)</h3>
+                    <p class="spotlight-desc">Secured 2nd Place at SRMIST Hackathon (National Level) with an innovative smart-tech prototype. The project integrated lightweight real-time scripts and advanced design systems.</p>
+                    <a href="https://www.linkedin.com/posts/dedeepyayakkala_threx-hackathon-team6dx-activity-7424120486428741633-EPci?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-cvG4ByicCQbw9PZzU_1C--kBetEw2gPY" target="_blank" class="btn btn-primary btn-sm">View LinkedIn Post <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                
+                <div class="spotlight-gallery">
+                    <!-- Book Flipping Pages Effect Gallery -->
+                    <div class="book-gallery-container">
+                        <div class="book-stack" id="threxBook">
+                            <div class="book-page page-1 active">
+                                <img src="threx/1770048250840.jpg" alt="Threx Hackathon - Presentation Pitch">
+                            </div>
+                            <div class="book-page page-2">
+                                <img src="threx/1770048252123.jpg" alt="Threx Hackathon - Embedded System Testing">
+                            </div>
+                            <div class="book-page page-3">
+                                <img src="threx/1770048252888.jpg" alt="Threx Hackathon - Award Ceremony">
+                            </div>
+                            <div class="book-page page-4">
+                                <img src="threx/1770048254588.jpg" alt="Threx Hackathon - Prototype Demonstration">
+                            </div>
+                            <div class="book-page page-5">
+                                <img src="threx/1770048255660.jpg" alt="Threx Hackathon - Winning Team Portrait">
+                            </div>
+                        </div>
+                        <div class="book-controls">
+                            <span><i class="fa-solid fa-hand-pointer"></i> Click card to flip page</span>
+                            <span class="page-indicator">1 / 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Remaining Achievements Grid -->
+            <div class="achievements-grid">
+                <!-- Achievement 1 -->
+                <div class="achievement-card card-blue">
+                    <div class="achievement-icon-box"><i class="fa-solid fa-gamepad"></i></div>
+                    <div class="achievement-details">
+                        <h4>Toycathon Finalist</h4>
+                        <p>Advanced to the G2-day Grand Finale out of 14,291+ competing teams nationwide — selected among the top creative innovators in this prestigious national game design challenge.</p>
+                    </div>
+                </div>
+                
+                <!-- Achievement 2 -->
+                <div class="achievement-card card-purple">
+                    <div class="achievement-icon-box"><i class="fa-solid fa-store"></i></div>
+                    <div class="achievement-details">
+                        <h4>Tesco Retail Media Jam</h4>
+                        <p>Selected as a finalist for proposing and prototyping an AI-driven retail marketing solution.</p>
+                    </div>
+                </div>
+                
+                <!-- Achievement 3 -->
+                <div class="achievement-card card-teal">
+                    <div class="achievement-icon-box"><i class="fa-solid fa-palette"></i></div>
+                    <div class="achievement-details">
+                        <h4>KalaQuest 2025 Finalist</h4>
+                        <p>Recognized as a creative technology and art finalist at IIT Madras.</p>
+                    </div>
+                </div>
+                
+                <!-- Achievement 4 -->
+                <div class="achievement-card card-orange">
+                    <div class="achievement-icon-box"><i class="fa-solid fa-bolt"></i></div>
+                    <div class="achievement-details">
+                        <h4>Glytch’25 Finalist</h4>
+                        <p>Competed as a finalist at VIT's signature national-level technical hackathon.</p>
+                    </div>
+                </div>
+                
+                <!-- Achievement 5 -->
+                <div class="achievement-card card-rose">
+                    <div class="achievement-icon-box"><i class="fa-solid fa-users"></i></div>
+                    <div class="achievement-details">
+                        <h4>1K+ Creative Community</h4>
+                        <p>Established a loyal digital audience of over 1,000 illustration enthusiasts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section (Horizontal Grid) -->
+    <section id="certifications" class="certifications-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                    <h4>AWS Cloud Practitioner Essentials</h4>
+                    <p>Amazon Web Services · Cloud Foundations</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h4>Cisco – Intro to IoT &amp; AI</h4>
+                    <p>Cisco Networking Academy</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-satellite"></i></div>
+                    <h4>ISRO Bharatiya Antariksh Hackathon</h4>
+                    <p>Indian Space Research Organisation</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h4>TCS iON Career Edge</h4>
+                    <p>Young Professional Program</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publication & Education (Two-Column Layout) -->
+    <section class="details-section reveal">
+        <div class="container grid-2-col">
+            <!-- Publication -->
+            <div class="detail-card publication-card">
+                <h3 class="card-title"><i class="fa-solid fa-file-lines accent-color"></i> Publication</h3>
+                <div class="publication-body">
+                    <p class="pub-title">Energy-harvesting cementitious materials for sustainable infrastructure: a critical review of piezoelectric, thermoelectric, and photovoltaic mechanisms</p>
+                    <p class="pub-meta">Published in Springer Journal (2025)</p>
+                    <div class="pub-doi">
+                        <strong>DOI:</strong> <span>10.1007/s41062-025-02445-5</span>
+                    </div>
+                </div>
+                <a href="https://doi.org/10.1007/s41062-025-02445-5" target="_blank" class="btn btn-secondary btn-full btn-sm">View Publication <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+            <!-- Education -->
+            <div class="detail-card education-card">
+                <h3 class="card-title"><i class="fa-solid fa-graduation-cap accent-color"></i> Education</h3>
+                <div class="edu-timeline">
+                    <div class="edu-item">
+                        <div class="edu-meta">
+                            <strong>Chennai Institute of Technology</strong>
+                            <span class="edu-year">2024 - 2028</span>
+                        </div>
+                        <p class="edu-degree">B.Tech Computer Science Engineering</p>
+                        <p class="edu-grade">CGPA: 7.94</p>
+                        <div class="edu-extra-desc">
+                            <span class="student-badge"><i class="fa-solid fa-laptop-code"></i> CSE Student</span>
+                            <p>Building at the intersection of AI, design, and creative technology — blending intelligent systems with intuitive user experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering" class="volunteering-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Giving Back</span>
+                <h2 class="section-title">Volunteering</h2>
+            </div>
+
+            <div class="vol-grid">
+                <!-- Vol 1 -->
+                <div class="vol-card">
+                    <div class="vol-icon"><i class="fa-solid fa-hands-helping"></i></div>
+                    <div class="vol-info">
+                        <h4>Volunteer</h4>
+                        <p class="vol-org">FOSS Club CIT</p>
+                        <span class="vol-duration">Aug 2025 – Present</span>
+                    </div>
+                </div>
+
+                <!-- Vol 2 -->
+                <div class="vol-card">
+                    <div class="vol-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <div class="vol-info">
+                        <h4>Designing Lead</h4>
+                        <p class="vol-org">Coffee Houses CIT</p>
+                        <span class="vol-duration">Sep 2025 – Present</span>
+                    </div>
+                </div>
+
+                <!-- Vol 3 -->
+                <div class="vol-card">
+                    <div class="vol-icon"><i class="fa-solid fa-palette"></i></div>
+                    <div class="vol-info">
+                        <h4>Designer</h4>
+                        <p class="vol-org">Yuvenza CIT</p>
+                        <span class="vol-duration">Campus Organisation</span>
+                    </div>
+                </div>
+
+                <!-- Vol 4 -->
+                <div class="vol-card">
+                    <div class="vol-icon"><i class="fa-solid fa-flask"></i></div>
+                    <div class="vol-info">
+                        <h4>Core Team</h4>
+                        <p class="vol-org">Centre for Advanced Multidisciplinary Research &amp; Innovation</p>
+                        <span class="vol-duration">Research &amp; Innovation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let's Connect (Footer Card & Details) -->
+    <footer id="contact" class="footer-section reveal">
+        <div class="container footer-container">
+            <div class="footer-cta-side">
+                <h2>Let's Connect</h2>
+                <p>I'm always open to discussing new projects, creative collaborations, or multidisciplinary research opportunities. Drop me a line!</p>
+            </div>
+            
+            <div class="footer-info-side">
+                <div class="contact-details">
+                    <!-- Email -->
+                    <a href="mailto:dedeepya.yakkala@gmail.com" class="contact-item">
+                        <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>Email Me</h4>
+                        </div>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="https://linkedin.com/in/dedeepyayakkala" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="contact-text">
+                            <h4>LinkedIn</h4>
+                        </div>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/dedeepya_yakkala/" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="contact-text">
+                            <h4>Instagram</h4>
+                        </div>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/Dedeepya-07" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="contact-text">
+                            <h4>GitHub</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dedeepya Yakkala. Designed & Built with passion. <i class="fa-solid fa-sparkles accent-color"></i></p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Art/Hackathon Images -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&lt;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&gt;</button>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Expanded View">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Toast message for copy to clipboard -->
+    <div class="toast" id="toast">Copied to clipboard!</div>
+
+    <!-- JS Script -->
+    <script src="script.js"></script>
+</body>
+</html>
